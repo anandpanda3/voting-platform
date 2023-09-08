@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-weight: 200;
+  font-style: bold;
+}
+.row {
+  --bs-gutter-x: auto;
+  --bs-gutter-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+  margin-bottom: calc(var(--bs-gutter-y) * -1);
+}
